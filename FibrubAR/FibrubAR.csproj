@@ -13,14 +13,12 @@
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile>
-    </CompilerResponseFile>
+    <CompilerResponseFile></CompilerResponseFile>
     <UnityProjectGenerator>VSTU</UnityProjectGenerator>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>Android:13</UnityBuildTarget>
     <UnityVersion>2017.1.0f3</UnityVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <LangVersion>4</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -113,7 +111,7 @@
     <Compile Include="Assets\Scripts\CharController.cs" />
     <Compile Include="Assets\Scripts\LevelGenerated.cs" />
     <Compile Include="Assets\Scripts\ObstacleKiller.cs" />
-    <Compile Include="Assets\Scripts\ObstacleSpavner.cs" />
+    <Compile Include="Assets\Scripts\ObstacleSpawner.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\FibrumSDK\Fibrum\LensCorrection\LensCorrection.shader" />
